@@ -17,7 +17,6 @@ export default function TimecodesPanel(props) {
   useEffect(() => {
     handleSearchParams();
     if(userToken.user) {
-      console.log("hello")
       validateToken(userToken.user);
     }
   }, []);
