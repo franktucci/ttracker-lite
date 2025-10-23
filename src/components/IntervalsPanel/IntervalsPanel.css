@@ -1,0 +1,59 @@
+#add-btn{
+    background-color:var(--mantine-color-gray-3);
+    padding: 0;
+    aspect-ratio: 1;
+}
+
+#add-btn:hover{
+    background-color:var(--mantine-color-green-4);
+}
+
+#edit-btn{
+    background-color:var(--mantine-color-blue-3);
+}
+
+
+#edit-btn-2{
+    background-color:var(--mantine-color-blue-3);
+    padding: 0;
+    aspect-ratio: 1;
+}
+
+#edit-btn-2-target{
+    background-color:var(--mantine-color-blue-3);
+    padding: 0;
+    aspect-ratio: 1;
+}
+
+#cancel-btn{
+    background-color:var(--mantine-color-red-3);
+}
+
+#save-btn{
+    background-color:var(--mantine-color-green-3);
+}
+
+#delete-icn{
+    color:var(--mantine-color-red-6);
+}
+
+.item {
+  background-color: var(--mantine-color-body);
+}
+
+.dragHandle {
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: light-dark(var(--mantine-color-gray-6), var(--mantine-color-dark-1));
+}
+
+#timeSelect {
+    width:70px
+}
+
+#dateRangeSelect {
+    width:135px;
+}

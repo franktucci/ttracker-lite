@@ -1,0 +1,15 @@
+body {
+    background-color:var(--mantine-color-gray-2);
+  }
+
+.btn {
+    border-radius:var(--mantine-radius-xl);
+}
+
+.icn {
+  color:var(--mantine-color-gray-6);
+}
+
+.select {
+  --input-radius: var(--mantine-radius-xl);
+}
