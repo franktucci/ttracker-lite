@@ -1,4 +1,4 @@
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {HashRouter, Route, Routes} from "react-router-dom";
 import {MantineProvider} from '@mantine/core';
 import HomePage from "./components/HomePage/HomePage";
 import "@mantine/core/styles.css";
@@ -9,11 +9,11 @@ export default function App() {
   return (
     <MantineProvider>
       <CookiesProvider>
-        <BrowserRouter basename="/">
+        <HashRouter basename="/">
           <Routes>
             <Route path="/" element={<HomePage/>}/>
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </CookiesProvider>
     </MantineProvider>
   )
